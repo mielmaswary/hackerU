@@ -2011,7 +2011,7 @@ a:hover {
 }
 
 #banner {
-    width:358px;
+    width:100%;
     height: 11.25rem;
     background-image: linear-gradient(to left, RGB(25, 68, 162), RGB(138, 38, 170));
     color: white;
