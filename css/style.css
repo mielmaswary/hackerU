@@ -1660,6 +1660,9 @@ a:hover {
 }
 
 @media (max-width: 500px) {
+    html{
+      
+    }
     #registered-students-nav {
         display: none;
     }
@@ -2008,8 +2011,7 @@ a:hover {
 }
 
 #banner {
-    width: 100%;
-    min-width: 52.5rem;
+    width:358px;
     height: 11.25rem;
     background-image: linear-gradient(to left, RGB(25, 68, 162), RGB(138, 38, 170));
     color: white;
@@ -2501,15 +2503,15 @@ a:hover {
 }
 
 #video-cover-img {
-    background-image: url("../images/video-cover-img.png");
+    /* background-image: url("../images/video-cover-img.png");
     background-position: center;
     width: 18.75rem;
     height: 10.625rem;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #img-video-container {
-    width: 18.75rem;
+    width: 16.75rem;
     height: 14.5rem;
     box-shadow: 1px 1px 9px rgb(55, 55, 55, 0.2);
 }
@@ -3319,7 +3321,7 @@ a:hover {
     }
     #benefit-text-container {
         display: block;
-        width: 30rem;
+        max-width: 15rem;
         margin: auto;
     }
     .benefit-item {
@@ -3500,7 +3502,7 @@ a:hover {
     }
     #banner {
         height: auto;
-        padding: 0.5rem;
+       
     }
     #banner-p1 {
         display: none;
