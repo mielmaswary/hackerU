@@ -563,7 +563,7 @@
     text-decoration: none;
 }
 
-#video-background {
+/* #video-background {
     width: 100%;
     height: 100%;
     background-color: black;
@@ -573,13 +573,13 @@
     opacity: 60%;
     z-index: 10;
     display: none;
-}
-
+} */
+/* 
 #video-container {
     display: none;
     z-index: 10;
     opacity: 100%;
-}
+} */
 
 #business-world-container {
     width: 58.8rem;
@@ -709,7 +709,7 @@
 #grid-benefit-8 {
     transform: translateY(14rem);
 }
-
+/* 
 #video-cover-text-img-containter {
     width: 2rem;
     height: 2rem;
@@ -717,8 +717,8 @@
     background-repeat: no-repeat;
     background-size: 70%;
     transform: translateY(10%);
-}
-
+} */
+/* 
 #video-cover-img {
     background-image: url("../images/video-cover-img.png");
     background-position: center;
@@ -747,7 +747,7 @@ video-cover-text h3 {
     font-size: 1rem;
     font-weight: 700;
     display: inline;
-}
+} */
 
 #learning-process {
     transform: translateY(10%);
@@ -1926,7 +1926,7 @@ a:hover {
 }
 
 #main-nav-links-container {
-    width: 47rem;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -2011,7 +2011,7 @@ a:hover {
 }
 
 #banner {
-    width:375px;
+    width:96vw;
     height: 11.25rem;
     background-image: linear-gradient(to left, RGB(25, 68, 162), RGB(138, 38, 170));
     color: white;
@@ -2358,12 +2358,12 @@ a:hover {
     display: none;
 }
 
-#video-container {
+/* #video-container {
     display: none;
     z-index: 10;
     opacity: 100%;
-}
-
+} */
+/* 
 #business-world-container {
     width: 58.8rem;
     height: 9.3rem;
@@ -2371,7 +2371,7 @@ a:hover {
     display: flex;
     margin: auto;
     box-shadow: 1px 1px 9px rgb(55, 55, 55, 0.2);
-}
+} */
 
 #benefits-container {
     height: 100%;
@@ -2493,14 +2493,14 @@ a:hover {
     transform: translateY(14rem);
 }
 
-#video-cover-text-img-containter {
+/* #video-cover-text-img-containter {
     width: 2rem;
     height: 2rem;
     background-image: url(../images/video-cover-text-vector.png);
     background-repeat: no-repeat;
     background-size: 70%;
     transform: translateY(10%);
-}
+} */
 
 #video-cover-img {
     /* background-image: url("../images/video-cover-img.png");
@@ -2509,7 +2509,7 @@ a:hover {
     height: 10.625rem;
     background-size: cover; */
 }
-
+/* 
 #img-video-container {
     width: 16.75rem;
     height: 14.5rem;
@@ -2530,7 +2530,7 @@ video-cover-text h3 {
     font-size: 1rem;
     font-weight: 700;
     display: inline;
-}
+} */
 
 #learning-process {
     transform: translateY(10%);
@@ -3164,7 +3164,7 @@ a:hover {
     transform: translate(-1.5rem, -0.8rem);
 }
 
-#video {
+/* #video {
     opacity: 100%;
     width: 70%;
     height: 100%;
@@ -3172,7 +3172,7 @@ a:hover {
     position: absolute;
     top: 105rem;
     left: 15rem;
-}
+} */
 
 #whatsapp-contact a:hover {
     text-decoration: none;
@@ -3338,7 +3338,7 @@ a:hover {
     }
     #learning-process {
         height: 56rem;
-        padding-top: 3rem;
+        padding-top: 40px;
         width: 100%;
         min-width: 30px;
     }
@@ -3455,7 +3455,7 @@ a:hover {
     #video-container {
         display: none;
     }
-    #video {
+    /* #video {
         opacity: 100%;
         width: 70%;
         height: 100%;
@@ -3463,13 +3463,13 @@ a:hover {
         position: absolute;
         bottom: 100%;
         left: 0;
-    }
+    } */
     #benefits {
         min-width: 30px;
     }
     #benefits,
     #benefits-container {
-        height: 115rem;
+        height: 2270px;
     }
     #grid-benefit-8 {
         justify-content: end;
@@ -3563,7 +3563,7 @@ a:hover {
     }
     #benefits,
     #benefits-container {
-        height: 130rem;
+        height: 2270px;
     }
     #benefits,
     #benefits-container,
